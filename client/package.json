@@ -5,8 +5,8 @@
     "build": "webpack --mode production",
     "start": "webpack --watch"
   },
-  "author": "2U",
-  "license": "UNLICENSED",
+  "author": "Brandon Dell Cioppia",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
