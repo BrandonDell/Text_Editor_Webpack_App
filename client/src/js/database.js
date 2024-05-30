@@ -40,7 +40,7 @@ export const putDb = async (content) => {
     return savedData.value;
   } else {
     console.log(
-      "It wasn't saved to the database!"
+      "It wasn't saved to the database"
     );
     return null;
   }
