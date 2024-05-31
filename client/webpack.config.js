@@ -35,7 +35,7 @@ module.exports = () => {
             inject: true,
             name: "Text Editing Software",
             short_name: "T.E.W.A",
-            description: "Text without thought",
+            description: "Text thought",
             favicon: "./favicon.ico",
             // Theme and background color pulled from duotone-light.min.css
             background_color: "#faf8f5",
@@ -45,7 +45,7 @@ module.exports = () => {
             icons: [
               {
                 src: path.resolve("src/images/logo.png"),
-                sizes: [96, 128, 192, 256, 384, 512],
+                sizes: [96, 128, 192, 256, 384, 512], //multiple sizes
                 destination: path.join("assets", "icons"),
               },
             ],
@@ -58,7 +58,7 @@ module.exports = () => {
           test: /\.css$/i,
           use: ["style-loader", "css-loader"],
         },
-           Image loader
+          //  Image loader
         {
           test: /\.(png|svg|jpg|jpeg|gif)$/i,
           type: "asset/resource",

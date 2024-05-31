@@ -46,7 +46,7 @@ export const putDb = async (content) => {
   }
 };
 // TODO: Add logic for a method that gets all the content from the database
-export const getDb = async () => { console.error('getDb not implemented');
+export const getDb = async () => { console.log('getDb not implemented');
 
   // Creates a connection to the tewa database and version.
   const tewaDb = await openDB("tewa", 1);
